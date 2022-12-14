@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    background-color:#1C1E53;
+    width:100%;
+    
+}
+.navbar{
+    margin-left: 100px;
+    
+    background-color:#1C1E53;
+    text-transform: capitalize;
+}
+nav{
+   display: flex;
+
+}
+nav ul{
+    display: flex;
+    padding-left: 350px;
+}
+img{
+    padding-top: 32px;
+    cursor: pointer;
+}
+nav ul li{
+padding-top: 32px;
+padding-left:16px;
+padding-right: 16px;
+list-style: none;
+}
+nav ul li a{
+    color: #BBBBCB;
+    text-decoration: none;
+}
+button {
+    outline:none;
+    background: none;
+    margin-left: 50px;
+    width:130px;
+    height: 40px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    cursor: pointer;
+}
+.first{
+    color: #FFFFFF;
+}
+
+.container2{
+    margin-top: 110px;
+    display: flex;
+    
+}
+.container2 h1{
+    width: 468px;
+    height: 148px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    padding-bottom: 16px;
+    padding-top: 50px;
+}
+.container2 p{
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 562px;
+    height: 56px;
+    padding-top: 16px;
+    padding-top: 50px;
+}
+
+.container2 button{
+    width: 200px;
+    height: 64px;
+    background-color: #FCD980;
+    border-radius: 41px;
+    padding: 16px 48px;
+    gap: 10px;
+    margin-top: 70px;
+    display: flex;
+    color:#282938;
+    
+}
+  
+.logo-section{
+margin-top:96px;
+margin-left:80px;
+margin-right: 150px;
+display: flex;
+
+}
+
+.logo-number h3{
+    color: #282938;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+.logo-number p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.logo-section img{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
+
+.benefits{
+    margin-top:40px;
+}
+
+.benefits h2{
+    text-align: center;
+    color:#282938;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    margin-left:350px;
+    margin-right:350px;
+}
+.cards{
+    display:flex;
+    margin-top: 70px;
+}
+.card{
+    padding-left:16px;
+    padding-right: 16px;
+    margin-left:20px;
+    margin-right:20px;
+    background-color: #F4F6FC;
+}
+.card img{
+    padding-bottom: 30px;
+}
+.card h6{
+    color: #282938;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom:12px;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.container3{
+
+    width:100%;
+}
+.client{
+    display: flex;
+    margin-top: 150px;
+}
+
+.container3 .client h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 16px;
+    color: #000000;
+    opacity: 0.87;
+    padding-left: 100px;
+}
+.container3 .client h3{
+    color: #232536;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    width:600px;
+    padding-bottom: 16px;
+    padding-left: 100px;
+}
+.container3 .client p{
+    color: #282938;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;    
+    width:600px;
+    padding-left: 100px;
+}
+.img{
+    
+    background-image: url(./man-explaining-problems-to-faceless-psychologist-7176030.png);
+    background-position: center;
+    background-size: cover;
+    width: 575px;
+    height: 390px;
+}
+.client1{
+    margin-top: 150px;
+    display: flex;
+    background-color: #F4F6FC;
+    
+}
+.container3 .client1 h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 16px;
+    color: #000000;
+    opacity: 0.87;
+    padding-left: 100px;
+}
+.container3 .client1 h3{
+    color: #232536;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    width:600px;
+    padding-bottom: 16px;
+    padding-left: 100px;
+}
+.container3 .client1 p{
+    color: #282938;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;    
+    width:600px;
+    padding-left: 100px;
+}
+.img1{
+    
+    background-image: url(./photo-of-man-holding-a-book-927022.png);
+    background-position: center;
+    background-size: cover;
+    width: 575px;
+    height: 390px;
+    margin-left: 100px;
+}
+
+.img2{
+    
+    background-image: url(./a-man-working-in-a-call-center-8867431.png);
+    background-position: center;
+    background-size: cover;
+    width: 575px;
+    height: 390px;
+}
+
+.img3{
+    
+    background-image: url(./person-using-macbook-pro-3861964.png);
+    background-position: center;
+    background-size: cover;
+    width: 575px;
+    height: 390px;
+    margin-left: 100px;
+}
+
+
+
+@media(max-width:750px){
+    .navbar nav{
+        display: block;
+    }
+    nav ul{
+        display: block;
+    }
+    .client{
+        display: block;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .client1{
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0;
+        background-color:#E5E5E5;
+    }
+ .cards{
+    display: block;
+ }
+ .card{
+    display: block;
+    margin-left:150px;
+    margin-top: 15px;
+ }
+
+.logo-section{
+    display: block;
+}
+button{
+    margin-left: 0;
+}
+}
